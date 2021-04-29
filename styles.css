@@ -70,11 +70,13 @@ p {
 }
 
 h1 {
+  color: #e84545;
   font-size: 6rem;
 }
 
 h2 {
-  font-size: 4.2rem;
+  font-size: 4rem;
+  color: #f1e8e8;
 }
 
 ul {
@@ -194,10 +196,6 @@ nav {
 .code {
   color: #f1e8e8;
   transition: color 0.3s ease-out;
-}
-
-.project:hover .code {
-  color: #ff7f50;
 }
 
 .project-image {
