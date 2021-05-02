@@ -111,6 +111,7 @@ nav {
   align-items: center;
   height: 100vh;
   background-color: #1c1427;
+  line-height: 3;
 }
 
 .welcome-section > p {
@@ -218,6 +219,10 @@ nav {
 
 .contact-section-header > h2 {
   font-size: 6rem;
+}
+
+.contact-section-header > p {
+  font-size: 3rem;
 }
 
 @media (max-width: 28.75em) {
