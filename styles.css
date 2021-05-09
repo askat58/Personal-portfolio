@@ -237,10 +237,12 @@ nav {
 }
 /* Footer */
 footer {
+  align-items: center;
   color: #1c1427;
   display: flex;
-  text-align: center;
-  padding: 3rem;
+  font-size: 1.5rem;
+  justify-content: center;
+  padding: 1rem;
   background: #ccffbd;
 }
 
@@ -263,6 +265,9 @@ footer {
   html {
     font-size: 58%;
   }
+  .projects-section-header {
+    font-size: 3rem;
+  }
 }
 
 /* 460px / 16px = 28.75em */
@@ -270,16 +275,8 @@ footer {
   html {
     font-size: 55%;
   }
-}
-/* Base styles */
-
-@media (max-width: 28.75em) {
   nav {
     justify-content: center;
-  }
-
-  .nav-list {
-    margin: 0 auto;
   }
 
   .welcome-section > p {
