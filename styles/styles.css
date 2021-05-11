@@ -105,7 +105,7 @@ nav {
 
 .projects-section-header {
   max-width: 640px;
-  margin: 0 auto 5rem auto;
+  margin: 0 auto 3rem auto;
   color: #1c1427;
   font-size: 4rem;
   font-weight: bold;
@@ -125,7 +125,7 @@ nav {
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
-  margin-bottom: 6rem;
+  margin-bottom: 5rem;
 }
 
 @media (max-width: 30.625em) {
@@ -145,36 +145,36 @@ nav {
 }
 
 .project-title {
-  background: #ccffbd;
-  font-size: 1.8rem;
+  border: 3px solid #ccffbd;
+  border-radius: 20px;
+  font-size: 1.6rem;
   font-weight: 700;
-  padding: 2rem 0.5rem;
+  padding: 0.8rem 0.3rem;
 }
 
 .btn {
   display: inline-block;
-  padding: 1rem 2rem;
-  border-radius: 2px;
+  padding: 0.5rem 2rem;
 }
 
 .btn-show-all {
+  border: 3px solid #ccffbd;
+  border-radius: 20px;
   font-size: 2rem;
-  background: #ccffbd;
 }
 
 .btn-show-all:hover {
-  background: #7eca9c;
-  border: 1px solid #1c1427;
-}
-
-.btn-show-all:hover > i {
-  transform: translateX(2px);
+  background: #ccffbd;
 }
 
 .btn-show-all > i {
   margin-left: 10px;
   transform: translateX(0);
   transition: transform 0.3s ease-out;
+}
+
+.btn-show-all:hover > i {
+  transform: translateX(2px);
 }
 
 /* Contact section */
