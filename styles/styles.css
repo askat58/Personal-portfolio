@@ -72,7 +72,7 @@ nav {
 .nav-list a {
   color: #1c1427;
   display: block;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: bold;
   padding: 1rem;
 }
@@ -145,11 +145,12 @@ nav {
 }
 
 .project-title {
-  border: 3px solid #ccffbd;
+  border: 1px solid #1c1427;
   border-radius: 20px;
   font-size: 1.6rem;
   font-weight: 700;
   padding: 0.8rem 0.3rem;
+  opacity: 0.8;
 }
 
 .btn {
@@ -158,13 +159,14 @@ nav {
 }
 
 .btn-show-all {
-  border: 3px solid #ccffbd;
+  border: 1px solid #1c1427;
   border-radius: 20px;
   font-size: 2rem;
 }
 
 .btn-show-all:hover {
   background: #ccffbd;
+  border: 1px solid #ccffbd;
 }
 
 .btn-show-all > i {
